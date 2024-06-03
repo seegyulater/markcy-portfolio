@@ -1,18 +1,31 @@
 import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/hero-img.png";
-import themeIcon from "../../assets/sun.svg";
-import twitterIcon from "../../assets/twitter-light.svg";
-import githubIcon from "../../assets/github-light.svg";
-import linkedInIcon from "../../assets/linkedin-light.svg";
+import sun from "../../assets/sun.svg";
+import moon from "../../assets/moon.svg";
+import twitterLight from "../../assets/twitter-light.svg";
+import twitterDark from "../../assets/twitter-dark.svg";
+import githubLight from "../../assets/github-light.svg";
+import githubDark from "../../assets/github-dark.svg";
+import linkedinLight from "../../assets/linkedin-light.svg";
+import linkedinDark from "../../assets/linkedin-dark.svg";
 import CV from "../../assets/PETRAS_RESUME2024.pdf";
+import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
+  const { theme, toggleTheme } = useTheme();
+
+  const themeIcon = theme === 'light' ? sun : moon;
+  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+  const githubIcon = theme === 'light' ? githubLight : githubDark;
+  const linkedInIcon = theme === 'light' ? linkedinLight : linkedinDark;
+
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
-        {/* for user, to choose if dark mode or white mode */}
+        {" "}
+        {/* information template for markcy */}
         <img
-          className={styles.Hero}
+          className={styles.hero}
           src={heroImg}
           alt="Profile Picture of Markcy Petras"
         />
@@ -20,6 +33,7 @@ function Hero() {
           className={styles.colorMode}
           src={themeIcon}
           alt="Color Mode Icon"
+          onClick={toggleTheme}
         />
       </div>
       <div className={styles.info}>
@@ -48,9 +62,7 @@ function Hero() {
           businesses.
         </p>
         <a href={CV} download>
-          <button className="hover" >
-            CV
-          </button>
+          <button className="hover">CV</button>
         </a>
       </div>
     </section>

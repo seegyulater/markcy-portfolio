@@ -57,12 +57,11 @@ function Hero() {
             <img src={linkedInIcon} alt="LinkedIn Icon" />
           </a>
         </span>
-        <p>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+        <p className={styles.description}>
+          A 3rd year Computer Science Student at Pamantasan ng Lungsod ng Maynila.
         </p>
         <a href={CV} download>
-          <button className="hover">Curriculum Vitae (CV) </button>
+          <button className="hover">Curriculum Vitae</button>
         </a>
       </div>
     </section>

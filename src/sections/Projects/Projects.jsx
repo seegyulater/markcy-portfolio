@@ -37,7 +37,7 @@ function Projects() {
         />
       </div>
     </section>
-  );b 
+  );
 }
 
 export default Projects;

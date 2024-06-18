@@ -1,5 +1,5 @@
 import styles from "./SkillsStyles.module.css";
-import checkMarkIcon from "../../assets/checkmark-dark.svg"
+import checkMarkIcon from "../../assets/checkmark-dark.svg";
 import SkillList from "../../common/SkillList";
 
 function Skills() {
@@ -13,7 +13,7 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill='TypeScript' />
         <SkillList src={checkMarkIcon} skill='Node' />
       </div>
-      <hr/>
+      <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill='React' />
         <SkillList src={checkMarkIcon} skill='Angular' />
@@ -21,7 +21,7 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill='Tailwind CSS' />
         <SkillList src={checkMarkIcon} skill='Python' />
       </div>
-      <hr/>
+      <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill='Git' />
         <SkillList src={checkMarkIcon} skill='Github' />

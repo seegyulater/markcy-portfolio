@@ -8,7 +8,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/PETRAS_CV2024.pdf";
+import RESUME from "../../assets/PETRAS_RESUME2024.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -60,8 +60,8 @@ function Hero() {
         <p className={styles.description}>
           A 3rd year Computer Science Student at Pamantasan ng Lungsod ng Maynila.
         </p>
-        <a href={CV} download>
-          <button className="hover">Curriculum Vitae</button>
+        <a href={RESUME} download>
+          <button className="hover">RESUME</button>
         </a>
       </div>
     </section>

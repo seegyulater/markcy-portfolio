@@ -4,6 +4,7 @@ import cosmic from "../../assets/cosmic.png";
 import Voxify from '../../assets/voxify.png'
 import PLMapp from "../../assets/plmapp.png";
 import ams from "../../assets/ams.png";
+import enjoyce from "../../assets/enjoyce-logo.png"
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -34,6 +35,12 @@ function Projects() {
           link="https://github.com/dssrts/Academic-Management-System"
           h3="Academic Management System"
           p="A Software Engineering Project on PLM"
+        />
+        <ProjectCard
+          src={enjoyce}
+          link="https://github.com/HolyShaq/Enjoyce"
+          h3="Enjoyce Travel and Tours"
+          p="A Mobile Development on Enjoyce Travel and Tours"
         />
       </div>
     </section>

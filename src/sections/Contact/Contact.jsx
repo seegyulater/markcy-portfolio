@@ -1,4 +1,4 @@
-import styles from "./ContactStyles.module.css";
+import styles from './ContactStyles.module.css';
 
 function Contact() {
   return (
@@ -37,10 +37,9 @@ function Contact() {
             name="message"
             id="message"
             placeholder="Message"
-            required
-          ></textarea>
+            required></textarea>
         </div>
-        <input className="hover btn" type="submit" value="submit" />
+        <input className="hover btn" type="submit" value="Submit" />
       </form>
     </section>
   );

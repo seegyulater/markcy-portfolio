@@ -1,4 +1,3 @@
-/* for project styles */
 .container {
   display: flex;
   flex-direction: column;
@@ -21,8 +20,6 @@
   a:hover {
     transform: scale(1.05);
   }
-
-  
 }
 
 .projectsContainer {
@@ -38,6 +35,5 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0 30px;
-    
   }
-} 
+}

@@ -1,5 +1,5 @@
 /* this is the code for the light mode */
-import React, { createContext, useContext, useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from 'react';
 
 const ThemeContext = createContext();
 
@@ -16,7 +16,6 @@ export const ThemeProvider = ({ children }) => {
   }, [theme]);
 
   const toggleTheme = () => {
-    console.log('theme switched');
     setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
   };
 

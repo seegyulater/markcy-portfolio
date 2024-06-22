@@ -1,5 +1,5 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/new pic.png";
+import heroImg from "../../assets/hero.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import twitterLight from "../../assets/twitter-light.svg";
@@ -58,7 +58,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          A 3rd year Computer Science Student at Pamantasan ng Lungsod ng Maynila.
+          A Computer Science Student at Pamantasan ng Lungsod ng Maynila.
         </p>
         <a href={RESUME} download>
           <button className="hover">RESUME</button>

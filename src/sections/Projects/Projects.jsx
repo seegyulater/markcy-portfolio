@@ -22,7 +22,7 @@ function Projects() {
           src={Voxify}
           link="https://github.com/seegyulater/voxify-workshop"
           h3="Voxify"
-          p="A Voice Generator"
+          p="A Voice Generator on Voxify"
         />
         <ProjectCard
           src={PLMapp}

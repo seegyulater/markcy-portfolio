@@ -1,3 +1,4 @@
+/*Hero jsx file*/
 import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/hero.png";
 import sun from "../../assets/sun.svg";

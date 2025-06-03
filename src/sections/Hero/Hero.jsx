@@ -9,7 +9,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import RESUME from "../../assets/PETRAS_RESUME2024.pdf";
+import RESUME from "../../assets/PETRAS_CV2025.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -52,9 +52,7 @@ function Hero() {
             <img src={githubIcon} alt="Github Icon" />
           </a>
           <a
-            href="https://www.linkedin.com/in/mark-cristopher-petras-4b2b2721a/"
-            target="_blank"
-          >
+            href="https://www.linkedin.com/in/mark-cristopher-petras-4b2b2721a/" target="_blank">
             <img src={linkedInIcon} alt="LinkedIn Icon" />
           </a>
         </span>

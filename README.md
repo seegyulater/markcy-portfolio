@@ -56,6 +56,7 @@ This repository is a responsive portfolio Website using ReactJS
 
 * 🚀 **One-Click Deployment**
   Easily host your site with Vercel and GitHub
+  skip day 1
 
 ---
 
